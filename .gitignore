@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Artefactos de compilación (se entregan en el Release, no en el repo)
+release/
+dist/
+build/
+*.spec.bak
+
+# Datos personales: NUNCA versionar
+ses_*.json
+API ControlGVehiculos.txt
+*.db
+*.db-wal
+*.db-shm
+*.db-journal
+*.corrupto_*
+*.garagepack
+GarageDesk_Sync_*.zip
+reporte_vehicular_*.html
+comprobantes/
+fotos_vehiculos/
+backups_locales/
+
+# Logs y sistema
+*.log
+.DS_Store
+Thumbs.db
