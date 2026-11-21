@@ -30,6 +30,7 @@ Debe coincidir con `version_info.txt`, `instalador.iss`, el nombre del release y
 - Descarga del instalador previa confirmación, con verificación opcional de SHA256 publicado en el release, creación de punto de restauración y cierre limpio antes de ejecutar el instalador.
 - Metadatos de versión reales en `GarageDesk.exe` (`FileVersion`/`ProductVersion` = `3.1.0.1`).
 - Script `Compilar.ps1` reproducible para PyInstaller + Inno Setup.
+- Plantilla vacía de base de datos en `db-template/mi_vehiculo.db` (solo estructura, 0 filas) para instalaciones desde cero; no contiene datos personales y es pública de forma segura.
 
 ### Cambiado
 - Instalación migrada de `C:\Program Files\GarageDesk` a `C:\Program Files (x86)\GarageDesk`.

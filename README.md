@@ -11,7 +11,9 @@ Control vehicular personal: mantenimiento, servicios, costos, recordatorios, fot
 
 GarageDesk **no envía datos a ningún servidor**. La única salida a Internet es la comprobación optativa de actualizaciones a GitHub Releases (`api.github.com`), y solo descarga el instalador después de tu confirmación.
 
-**Nunca se suben a GitHub** la base de datos, fotos, comprobantes, respaldos ni ningún dato personal. `.gitignore` excluye explícitamente `*.db`, `*-wal`, `*-shm`, `.garagepack`, `comprobantes/`, `fotos_vehiculos/`, `backups_locales/` y `ses_*.json`.
+**Nunca se suben a GitHub** la base de datos real, fotos, comprobantes, respaldos ni ningún dato personal. `.gitignore` excluye explícitamente `*.db`, `*-wal`, `*-shm`, `.garagepack`, `comprobantes/`, `fotos_vehiculos/`, `backups_locales/` y `ses_*.json`.
+
+La única base de datos incluida en el repo es [`db-template/mi_vehiculo.db`](db-template/mi_vehiculo.db): una **plantilla vacía sin datos** para instalar GarageDesk desde cero. Está exenta de la regla anterior mediante una excepción en `.gitignore` y es públicamente segura de compartir.
 
 ## Actualizar sin desinstalar
 
