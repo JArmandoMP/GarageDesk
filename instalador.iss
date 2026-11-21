@@ -19,6 +19,8 @@ AppVerName={#NombreApp} {#VersionApp}
 AppPublisher=GarageDesk Control Vehicular
 ; Migración solicitada: de Program Files a Program Files (x86)
 DefaultDirName={commonpf32}\{#NombreApp}
+; Forzar migración desde C:\Program Files\GarageDesk (ignorar directorio anterior)
+UsePreviousAppDir=no
 DefaultGroupName={#NombreApp}
 DisableProgramGroupPage=yes
 UninstallDisplayName={#NombreApp} {#VersionApp}
