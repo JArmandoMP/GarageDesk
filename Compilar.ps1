@@ -1,16 +1,16 @@
 # ============================================================
 # Compilar.ps1 · Construye GarageDesk 3.1.0.1 y su instalador
 # Requiere:
-#   Python completo con Tkinter: R:\Programación\OpenCode\Herramientas\Python-Full
-#   Inno Setup 6:                R:\Programación\OpenCode\Herramientas\InnoSetup6
+#   Python completo con Tkinter: E:\Programación\Utilerias\Python-Full
+#   Inno Setup 6:                E:\Programación\Utilerias\InnoSetup6
 # El instalador se copia además a:
-#   R:\Programación\OpenCode\Control de Gastos -Vehículos- - Compilación\Instaladores\
+#   E:\Programación\OpenCode\Control de Gastos -Vehículos- - Compilación\Instaladores\
 # ============================================================
 
 $ErrorActionPreference = 'Stop'
 $root = $PSScriptRoot
-$py   = 'R:\Programación\OpenCode\Herramientas\Python-Full\python.exe'
-$iscc = 'R:\Programación\OpenCode\Herramientas\InnoSetup6\ISCC.exe'
+$py   = 'E:\Programación\Utilerias\Python-Full\python.exe'
+$iscc = 'E:\Programación\Utilerias\InnoSetup6\ISCC.exe'
 
 if (-not (Test-Path -LiteralPath $py))   { throw "No existe Python: $py" }
 if (-not (Test-Path -LiteralPath $iscc)) { throw "No existe Inno Setup: $iscc" }

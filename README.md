@@ -37,7 +37,7 @@ GarageDesk crea un punto de restauración antes de importar paquetes o aplicar u
 
 ## Compilar desde el código
 
-Requiere las herramientas portables de `R:\Programación\OpenCode\Herramientas`:
+Requiere las herramientas portables de `E:\Programación\Utilerias`:
 
 ```powershell
 powershell -NoProfile -ExecutionPolicy Bypass -File ".\Compilar.ps1"
@@ -48,7 +48,7 @@ powershell -NoProfile -ExecutionPolicy Bypass -File ".\Hacer-Respaldo.ps1"
 
 - `release\win\GarageDesk\GarageDesk.exe`
 - `release\installer\GarageDesk_Setup_<versión>.exe`
-- Una copia en `R:\Programación\OpenCode\Control de Gastos -Vehículos- - Compilación\Instaladores\` con su `.sha256.txt`.
+- Una copia en `E:\Programación\OpenCode\Control de Gastos -Vehículos- - Compilación\Instaladores\` con su `.sha256.txt`.
 
 ## Reglas de versión
 

@@ -1,7 +1,7 @@
 # ============================================================
 # Hacer-Respaldo.ps1 · Copia de seguridad versionada de GarageDesk
 # Lee APP_VERSION de GarageDesk.py (fuente de verdad) y crea:
-#   R:\Programación\OpenCode\Control de Gastos -Vehículos- - Respaldos\Versiones\AAAA-MM\
+#   E:\Programación\OpenCode\Control de Gastos -Vehículos- - Respaldos\Versiones\AAAA-MM\
 #     1) Carpeta "vX.Y.Z.W (fecha hora)" con el proyecto (sin generados)
 #     2) ZIP del mismo respaldo
 # Los datos personales NO se copian aquí: están en ... - Respaldos\Datos\

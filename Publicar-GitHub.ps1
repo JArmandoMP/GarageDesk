@@ -18,9 +18,9 @@ param(
 )
 
 $ErrorActionPreference = 'Stop'
-$gitExe = 'R:\Programación\OpenCode\Herramientas\Git\bin\git.exe'
-$gitCmd = 'R:\Programación\OpenCode\Herramientas\Git\git.cmd'
-$root   = 'R:\Programación\OpenCode\Control de Gastos -Vehículos-'
+$gitExe = 'E:\Programación\Utilerias\Git\bin\git.exe'
+$gitCmd = 'E:\Programación\Utilerias\Git\git.cmd'
+$root   = 'E:\Programación\OpenCode\Control de Gastos -Vehículos-'
 $base   = Split-Path $root -Parent
 $owner  = 'JArmandoMP'
 $repo   = 'GarageDesk'
